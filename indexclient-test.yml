@@ -11,3 +11,10 @@ management:
     web:
       exposure:
         include: '*'
+spring:
+  rabbitmq:
+      host: 203.195.250.141
+      port: 5672
+      username: java
+      password: 123
+      virtual-host: /java19

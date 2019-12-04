@@ -1,0 +1,15 @@
+server:
+  port: 8085
+feign:
+  compression:
+    request: 
+      enabled: true
+    response:
+      enabled: true
+  hystrix:
+    enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

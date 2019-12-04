@@ -18,3 +18,5 @@ spring:
       username: java
       password: 123
       virtual-host: /java19
+imageConfig:
+    path: http://www.8888/success.com
